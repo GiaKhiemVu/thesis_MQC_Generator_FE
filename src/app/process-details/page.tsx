@@ -77,7 +77,7 @@ export default function ProcessDetailsPage() {
                     </Typography>
 
                     <Paper sx={{ p: 4, mb: 4 }}>
-                        <Typography variant="h6">1️⃣ Original Input:</Typography>
+                        <Typography variant="h6" marginBottom={2}>1️⃣ Original Input:</Typography>
                         <TextField
                             label="Enter a sentence"
                             multiline
