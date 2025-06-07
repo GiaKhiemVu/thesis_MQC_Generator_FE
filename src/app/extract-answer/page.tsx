@@ -113,12 +113,15 @@ export default function ExtractAnswerPage() {
                 </Container>
             </Box>
             {/* FOOTER */}
-            <Box component="footer" sx={{ py: 3, px: 2, backgroundColor: '#f5f5f5' }}>
-                <Container maxWidth="md">
-                <Typography variant="body2" color="textSecondary" align="center">
-                    © {new Date().getFullYear()} Quiz Generator. All rights reserved. By Vu Gia Khiem - ITITIU20229
-                </Typography>
-                </Container>
+            <Box component="footer" sx={{ py: 2, px: 2, backgroundColor: '#f5f5f5' }}>
+                <Box display="flex" justifyContent="space-between" width={'100%'}>
+                    <Typography variant="body2" color="text.secondary">
+                        © {new Date().getFullYear()} Quiz Generator. All rights reserved.
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        By Vu Gia Khiem - ITITIU20229
+                    </Typography>
+                </Box>
             </Box>
         </Box>
     );
